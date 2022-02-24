@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "160030240407",
+    "project_id": "savepass-222dc",
+    "storage_bucket": "savepass-222dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160030240407:android:a1e1a8b979211a9a0743d2",
+        "android_client_info": {
+          "package_name": "com.example.savepass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160030240407-80ioqaojui7d2unv3tn5ar7pqsjh1a6l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDg6yoZ-LkIGy6zH7LoPjhDi4F1tPVlFIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160030240407-80ioqaojui7d2unv3tn5ar7pqsjh1a6l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

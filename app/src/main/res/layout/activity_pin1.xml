@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/whitebg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/back" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:text="New Password"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/newpw"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:background="@drawable/boxbackground"
+            android:fontFamily="@font/light"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:text="New Password" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:text="Repeat Password"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/repeatpw"
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:background="@drawable/boxbackground"
+            android:fontFamily="@font/light"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:text="Repeat Password" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/continue_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/continue_btn" />
+
+</LinearLayout>

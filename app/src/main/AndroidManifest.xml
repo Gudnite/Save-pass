@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.savepass">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SavePASS">
+        <activity android:name=".PasswordChange"></activity>
+        <activity android:name=".PasswordDetail" />
+        <activity android:name=".IntroActivity">
+
+        </activity>
+        <activity android:name=".CreatePassword" />
+        <activity android:name=".PasswordDeck" />
+        <activity android:name=".PasswordSuccess" />
+        <activity android:name=".AccountSuccess" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".Login" />
+        <activity android:name=".Signup" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
